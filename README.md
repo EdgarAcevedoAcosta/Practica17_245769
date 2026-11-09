@@ -1,3 +1,15 @@
+Respuestas:
+¿la ruta protegida hace segura la aplicación? ¿Qué es lo que de verdad protege los datos?
+Segun yo solo hace que los usuarios que no esten con una sesion registrada y activa que los mande al la pagina de entrar o el login, si se refiere a como lo implementamos lo protege para que todos no vean las clases que otros tengan escritos y que los usuarios que no estan registrados no puedan acceder a ver la informacion de otros.
+
+¿por qué no se manda el miembroId al inscribirse?
+por que el usuario puede ver el id de inscripcion por podria sacar todo el objeto, o que puda incribir otras clases sin complicarse tanto
+
+Responder: ¿qué diferencia hay entre un 401 y un 403?
+que una es que el usuario no esta autenticado y el otro que esta autenticado pero no tiene los permisos para interactuar con el recurso 
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
